@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery</title>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <style>
+  	
+  	tr td {
+  		padding: 50px 0;
+  	}
+
+  </style>
+
+</head>
+<body>
+<h1>Form</h1>
+<form id = "form_container">
+	Firstname: <input type="text" name="firstname" placeholder="firstname"><br>
+	Lastname: <input type="text" name="lastname" placeholder="lastname"><br>
+	Email: <input type="text" name="email" placeholder="email"><br>
+	Batch: <input type="text" name="batch" placeholder="batch"><br>
+	Permanent Add: <input type="text" name="communication" placeholder="permanent_add"><br>
+	Temp Add: <input type="text" name="permanent" placeholder="temp_add"> <br>
+	Previous Employ: <input type="text" name="previous_employer" placeholder="Previous Employ"> <br>
+	<input type="button" id="submit" value="submit">
+</form>
+<br>
+<div>
+	Drop: <select id = "dropdown">
+	  <option value="10">10</option>
+	  <option value="20">20</option>
+	  <option value="50">50</option>
+	  <option value="100">100</option>
+	  <option value="on_scroll">onscroll</option>
+	</select>
+</div>
+<br>
+<div id="div1" style="border: 1px;"></div>
+<h4 id = "finish"></h4>
+<div>
+	Search: <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Searchbox">
+</div>
+<div id = "finish"></div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
